@@ -10,6 +10,7 @@ import FileTable, { FileItem } from '../components/FileTable';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
 import useCurrentUser from '@/hooks/useCurrentUser';
+import Floating from '../components/Floating';
 
 interface FileType {
   _id: string;
@@ -76,6 +77,7 @@ const MyFiles = () => {
             {user?.role === 'admin' && <Upload />}
             <Create />
           </div>
+          <Floating />
         </div>
 
         <SortFilters />
