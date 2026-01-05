@@ -21,17 +21,17 @@ const items = [
   },
   {
     title: "Payment Info",
-    url: "#",
+    url: "/payment",
     icon: Inbox,
   },
   {
     title: "Register courses",
-    url: "#",
+    url: "/register",
     icon: Pencil,
   },
   {
     title: "Courses",
-    url: "#",
+    url: "/courses",
     icon: NotebookIcon,
   },
   {
